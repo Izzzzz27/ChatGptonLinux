@@ -17,6 +17,23 @@ providers.
 4.  Prints the response.
 5.  Copies the response to the clipboard.
 
+## Automate It With a Keyboard Shortcut
+
+You can make this script even more convenient by assigning it to a keyboard shortcut.
+
+Once configured, your workflow becomes:
+
+1. **Copy** any text you want to process.
+2. Press your custom keyboard shortcut.
+3. The script automatically sends the copied text to ChatGPT.
+4. The response is copied back to your clipboard, ready to **paste anywhere** with `Ctrl + V`.
+
+No need to open a terminal or manually run the script every time!
+
+Configure a custom keyboard shortcut in your operating system's settings to execute `clipboard-chatgpt.sh`. Make sure it uses the correct script path and runs in an environment where `chatgpt`, `xsel`, and your API key are available.
+
+**Example workflow:** Select text in your browser → `Ctrl + C` → press your custom shortcut → `Ctrl + V` to paste the AI response.
+
 ## Requirements
 
 -   Bash
