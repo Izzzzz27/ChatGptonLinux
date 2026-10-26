@@ -117,6 +117,4 @@ will be displayed in the terminal and placed on your clipboard.
 -   Keep API keys out of source control. Configure credentials in your
     shell environment or another secure method.
 
-## License
 
-Add the license that applies to this repository.
